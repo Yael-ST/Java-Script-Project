@@ -1,2 +1,2 @@
 # JavaScript-Project
-In my JavaScript project, I developed an online game featuring an intuitive user interface and impressive graphic designs. This resulted in a beautiful and engaging online game that offers an exceptional user experience
+In my JavaScript project, I developed an online game (Game find the differences) featuring an intuitive user interface and impressive graphic designs.
