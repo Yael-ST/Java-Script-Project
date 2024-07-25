@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="../css/menu.css" />
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <img id="logo" src="../img/logo.png" />
+    <center>
+        <h1>שלום</h1>
+        <h3>?במה אתה רוצה לשחק</h3>
+        <br /><br />
+    </center>
+    <div>
+        <div claas="opacity">
+            <br />
+            <center>
+                <a href="../html/game.html"> <img class="img" src="../img/1.png" /></a>
+                <a href="../html/wrong.html"><img class="img" src="../img/2.png" /></a>
+                <a href="../html/wrong.html"><img class="img" src="../img/3.png" /></a>
+                <a href="../html/wrong.html"><img class="img" src="../img/4.png" /></a>
+                <a href="../html/wrong.html"><img class="img" src="../img/5.png" /></a>
+            </center>
+            <br />
+        </div>
+    </div>
+
+    <script>
+        var name = localStorage.getItem('name');
+        var h1 = document.querySelector('h1');
+        h1.innerText = '!' + h1.innerText + ' ' + localStorage.getItem('name');
+    </script>
+</body>
+</html>

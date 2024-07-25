@@ -1,0 +1,57 @@
+﻿body {
+    background-image: url(../img/back.png);
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+#logo {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+.btnReg {
+    border: 2px solid black;
+    background-color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #e99881;
+    color: black;
+    font-family: 'Segoe UI';
+    border-radius: 5px;
+    width: 15%;
+    border-color: #52e0d3;
+}
+
+#bbtnReg:hover {
+    background-color: #52e0d3;
+    color: white;
+}
+.name {
+    font-size: 20px;
+    color: #e99881;
+    font-family: 'Segoe UI';
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=text], select, textarea {
+    border: 10px solid;
+    width: 15%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    direction: rtl;
+    border-color: #e99881;
+    padding: 14px 28px;
+}

@@ -1,0 +1,23 @@
+﻿body {
+    background-image: url(../img/back.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Segoe UI Light;
+}
+
+#logo {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    background-color: #ffffff0d;
+}
+
+.img {
+    width: 17%;
+    margin: 10px;
+}

@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="../css/main.css" />
+    <meta charset="utf-8" />
+    <title>welcome</title>
+</head>
+<body>
+    
+    <img id="logo" src="../img/logo.png" />
+    <div>
+      <center><b> <p class="name" style="width:15%">?איך קוראים לך</p></b> </center>  
+        <input type="text" class="name" id="fname" name="firstname" placeholder="ארי בר שלום" style="font-size:16px">
+
+    </div>
+    <button onclick="myFunction()" class="btnReg" id="bbtnReg">כניסה</button>
+    <script>
+        function myFunction() {
+            var input = document.querySelector('input');
+            localStorage.setItem('name', input.value);
+            window.location.href = "../html/menu.html";
+
+        }
+    </script>
+</body>
+</html>
